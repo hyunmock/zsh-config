@@ -15,7 +15,7 @@ wtbr() {
     local selected=$(ls -1d "$parent_dir"/*/ 2>/dev/null | while read dir; do
         local dirname="${dir:t}"
         [[ "$dirname" != "$current_basename" ]] && echo "$dirname"
-    done | sort | fzf --height=40% --reverse --prompt="Select sibling directory: ")
+    done | sort | fzf --height=40% --reverse --prompt="Select sibling directory: " --ansi)
 
     if [[ -n "$selected" ]]; then
         cd "$parent_dir/$selected" && pwd || echo "Failed to change directory"
