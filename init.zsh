@@ -3,6 +3,9 @@
 # Load environment variables
 source ~/.zsh/env.zsh
 
+# Load path variables
+source ~/.zsh/path_vars.zsh
+
 # Load aliases
 source ~/.zsh/aliases.zsh
 
