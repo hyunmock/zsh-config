@@ -2,7 +2,8 @@
 alias vi='nvim'
 alias qg='qgenie'
 alias bat='batcat'
-alias codex='qgenie'
+alias codex='qgenie codex'
+alias claude='qgenie claude'
 
 alias ls='eza -lg --icons --git --group-directories-last --color=always --sort=name'
 alias la='eza -alg --icons --git --group-directories-last --color=always --sort=name'
