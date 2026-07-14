@@ -2,8 +2,6 @@
 alias vi='nvim'
 alias qg='qgenie'
 alias bat='batcat'
-alias codex='qgenie codex'
-alias claude='qgenie claude'
 
 alias ls='eza -lg --icons --git --group-directories-last --color=always --sort=name'
 alias la='eza -alg --icons --git --group-directories-last --color=always --sort=name'
@@ -13,5 +11,9 @@ alias lf='eza -lfg --icons --git --color=always'
 alias lh='eza -dlg .* --group-directories-first --icons --git'
 alias lt='eza -alg --icons --git --color=always --sort=modified'
 
+alias claude='qgenie claude'
 alias claude='claude --permission-mode auto'
+
+alias codex='qgenie codex'
+alias codex='codex --aks-for-approval never --sandbox workspace-write'
 
