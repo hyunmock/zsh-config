@@ -12,3 +12,6 @@ alias ld='eza -lgD --icons --git --color=always'
 alias lf='eza -lfg --icons --git --color=always'
 alias lh='eza -dlg .* --group-directories-first --icons --git'
 alias lt='eza -alg --icons --git --color=always --sort=modified'
+
+alias claude='claude --permission-mode auto'
+
