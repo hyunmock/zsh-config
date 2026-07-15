@@ -15,5 +15,4 @@ alias claude='qgenie claude'
 alias claude='claude --permission-mode auto'
 
 alias codex='qgenie codex'
-alias codex='codex --aks-for-approval never --sandbox workspace-write'
 
