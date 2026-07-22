@@ -16,3 +16,5 @@ alias claude='claude --permission-mode auto'
 
 alias codex='qgenie codex'
 
+alias wtsw='wt sw'
+
