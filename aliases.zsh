@@ -14,7 +14,7 @@ alias lt='eza -alg --icons --git --color=always --sort=modified'
 alias claude='qgenie claude'
 alias claude='claude --permission-mode auto'
 
-alias codex='qgenie codex'
+alias codex='qgenie codex --no-daemon'
 
 alias wtsw='wt sw'
 
