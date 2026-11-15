@@ -9,6 +9,9 @@ source ~/.zsh/path_vars.zsh
 # Load aliases
 source ~/.zsh/aliases.zsh
 
+# Load qgenie aliases (only on machines with qgenie installed)
+(( $+commands[qgenie] )) && source ~/.zsh/qgenie.zsh
+
 # ---------------------------------------------
 # ⚙️ Custom Functions
 # ---------------------------------------------
